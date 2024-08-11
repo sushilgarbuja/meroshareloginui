@@ -1,0 +1,72 @@
+* {
+  color: white;
+  font-family: robot condensed, sans-serif;
+}
+body {
+  background-color: #333a56;
+}
+.box {
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 5px;
+}
+.container {
+  /* border: 1px solid yellow; */
+  /* background-color: red; */
+  width: 456px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.usercontainer {
+  margin-bottom: 20px;
+}
+select {
+  width: 100%;
+  height: 30px;
+}
+.userinput {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+.user-input {
+  width: 100%;
+  height: 30px;
+}
+.usercontainer {
+  overflow: hidden;
+}
+.loginbutton {
+  margin-top: 35px;
+  width: 100%;
+  background-color: #5e6ea7;
+  text-align: center;
+  /* height: 40px; */
+  padding: 15px 0;
+  border-radius: 5px;
+}
+.login {
+  background-color: #5e6ea7;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.forgot {
+  text-align: center;
+  margin-top: 25px;
+}
+.forgot a {
+  text-decoration: none;
+}
+.forgot a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+}
